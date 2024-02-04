@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Document</title>
+    <style>
+    .heading{
+        color: rgb(192, 24, 24);
+        text-transform: uppercase;
+        letter-spacing: 5px;
+        font-size: 10px;
+        justify-content: flex-start;
+        font-style: normal;
+    }
+ 
+    nav{
+        box-sizing: border-box;
+        display: flex;
+        justify-content:space-evenly;
+        align-items: center;
+        min-height: 8vh;
+        background-color: rgb(255, 255, 255);
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .nav-links{
+        display: flex;
+        justify-content: space-around;
+        width: 60%;
+    }
+    .nav-links a{
+        color: rgb(159, 51, 51);
+        text-decoration: none;
+        letter-spacing: 3px;
+        font-weight: bold;
+        font-size: 14px;
+         padding: 14px 16px;
+        }      
+    body{
+            background-image: url("../PICs/patrick-langwallner-7VO1tQLtJmU-unsplash.jpg" );
+            background-size: cover;
+        }
+        
+   
+         div{
+            text-align: center;
+            font-style: italic;
+            font-weight: lighter;
+            color: blue;
+            font-size: xx-large;}
+
+ * {box-sizing: border-box;}
+
+/* Styling the input container */
+.input-container {
+  display: flex;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+/* Styling the form icons */
+.icon {
+  padding: 10px;
+  background: dodgerblue;
+  color: white;
+  min-width: 50px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+/* Styling the input fields */
+.input-field {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+  border-radius: 5px;
+}
+
+.input-field:focus {
+  border: 2px solid dodgerblue;
+  border-radius: 5px;
+}
+
+/* Setting a style for the submit button */
+.btn {
+  background-color: dodgerblue;
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+  border-radius: 10px;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+p{
+    color: white;
+    font-size: xx-large;
+   
+}
+section{
+    color: white;
+    font-size: x-large;
+}
+#closed{
+    color: white;
+    font-size: xx-large;
+    background-color: #00000042;
+    box-sizing: top 10px;
+   
+}
+.alone{
+    font-size: 200%;
+    color: blue;
+    font-style: italic;
+    text-align: center;
+    font-weight: bold;
+
+}
+ul{
+        list-style: none;
+    }
+.copy{
+    opacity: 40%;
+}
+   
+
+</style>
+</head>
+<body> 
+    <header>
+        <nav>
+            <div class="heading"><h1>Navigation Bar</h1></div>
+            <ul class="nav-links">     
+        <li>
+            <a href="./JH.html">Home</a>
+        </li>
+        <li>
+            <a href="./JA.html">About</a>
+        </li>
+        <li>
+            <a href="./JC.html">Contact</a>
+        </li>
+        <li>
+            <a href="./JR.html">Resume</a>
+        </li>
+        <li>
+            <a href="./JW.html">Work</a>
+        </li>
+            </ul>
+        </nav>
+    <section>
+        <div>
+            <p>
+                Want to reach Greatness?
+            </p>
+            <h10>
+                Register Now!! <br>and Get 50% Discount on your First Job.
+            </h10>
+        </div>
+    </section>
+    <section>
+        <form>
+            <h2>Registration Form:</h2>
+            <div class="input-container">
+              <i class="fa fa-user icon"></i>
+              <input class="input-field" type="text" placeholder="Username" name="usrnm">
+            </div>
+            <div class="input-container">
+                <i class="fa fa-envelope icon"></i>
+                <input class="input-field" type="text" placeholder="Email" name="email">
+              </div>
+            
+              <div class="input-container">
+                <i class="fa fa-key icon"></i>
+                <input class="input-field" type="password" placeholder="Password" name="psw">
+              </div>
+            
+              <button type="submit" class="btn">Register</button>
+            </form>
+    </section><br>
+    <section>
+        <p id="closed"> OTHER OPTIONS ARE: </p>
+        <ul>
+            <li>Phone Number: 09090500312, 08151814057</li><br>
+            <li>Email Address: johnajala84@gmail.com</li>
+        </ul>
+    </section>
+    <footer class="alone">
+        <h>
+            Always Aspire to Inspire!!!!
+        </h>              
+    </footer>
+</body>
+
+</html>
